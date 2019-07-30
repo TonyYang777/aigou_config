@@ -8,5 +8,5 @@ zuul:
   routes:
     plat:
       path:  /plat/**  
-      serviceId: plat-service
+      serviceId: plat-server
   prefix: /services  
