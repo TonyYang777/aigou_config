@@ -1,0 +1,14 @@
+server:
+  port: 1299
+
+spring:
+  application:
+    name: zuul-server
+
+zuul:
+  ignoredServices: '*' 
+  routes:
+    plat:
+      path:  /plat/**  
+      serviceId: plat-service
+  prefix: /services  
